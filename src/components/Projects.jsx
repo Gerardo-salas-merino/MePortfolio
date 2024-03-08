@@ -72,7 +72,7 @@ const Projects = () => {
             
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Pokedex 🔎</h1>
-              <div className="overflow-hidden h-[142px]">
+              <div className="overflow-hidden h-[172px] md:h-[142px] lg:h-[142px]">
                 <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Api de Pokémon donde podrás encontrar a todos los personajes Pokémon de la serie.</p>
                 <button onClick={() => window.open('https://pokemon-app-nu-five.vercel.app')} class="cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">VER PROYECTO</button>
               </div>
@@ -91,7 +91,7 @@ const Projects = () => {
             
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Shopping 🛒</h1>
-              <div className="overflow-hidden h-[196px] lg:h-[142px] md:h-[142px]">
+              <div className="overflow-hidden h-[226px] lg:h-[142px] md:h-[142px]">
                 <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Desarrollo de una API REST para un E-commerce que te permitirá realizar compras seguras, gestionar tu carrito de compras, explorar catálogos de productos.</p>
                 <button onClick={() => window.open('https://luxury-axolotl-eafa0e.netlify.app')} class="cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">VER PROYECTO</button>
               </div>
@@ -156,7 +156,7 @@ const Projects = () => {
             
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Wheather App⛅</h1>
-              <div className="overflow-hidden h-[142px]">
+              <div className="overflow-hidden h-[197px] md:h-[142px] lg:h-[142px]">
                 <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Weather api donde podras explorar el comportamiento del clima y de sus alrededores.</p>
                 <button onClick={() => window.open('https://weather-app-neon-six-64.vercel.app')} class="cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">VER PROYECTO</button>
               </div>
